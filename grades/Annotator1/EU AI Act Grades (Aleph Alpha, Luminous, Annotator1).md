@@ -1,0 +1,38 @@
+﻿**Aleph Alpha (Luminous) - total: 7/48**
+
+- Data sources
+   - 0 points: No description is provided of the Luminous training data.
+   - Source: Aleph Alpha website.
+- Data governance
+   - 0 points: No discussion of data governance.
+   - Source: Aleph Alpha website.
+- Copyrighted data
+   - 0 points: No description of copyrighted data.
+   - Source: Aleph Alpha website.
+- Compute (additive)
+   - 0 points: The model size, training time, hardware, and FLOPs are not disclosed.
+   - Source: Aleph Alpha website.
+- Energy (additive)
+   - 0 points: The energy usage, carbon emissions, and any form of measurement/mitigation are not disclosed.
+   - Source: Aleph Alpha website.
+- Capabilities and limitations
+   - 2 points: Capabilities are described as extensive (“Large language models are powerful technological tools that can process and produce human text. They have acquired this ability by ‘reading’ enormous amounts of human text data during training. Similar to someone reading a whole library and half of the internet, large language models have acquired a structural understanding of language and accumulated information about the world.”), with several more specific use cases (e.g. question answering, summarization). By comparison, limitations are not described.
+   - Source: <https://docs.aleph-alpha.com/docs/introduction/luminous/>
+- Risks and mitigations (additive)
+   - 0 points: No significant discussion of risks or mitigations.
+   - Source: <https://docs.aleph-alpha.com/docs/introduction/luminous/>
+- Evaluations (additive)
+   - 1 point: Evaluations on EleutherAI LM Harness, including accuracy on several tasks (question answering, summarization). However, no evaluation of any form of unintentional harm (e.g. bias), malicious use (e.g. disinformation), or desiderata beyond accuracy (e.g. robustness). 
+   - Source: <https://www.aleph-alpha.com/luminous-performance-benchmarks>
+- Testing (additive)
+   - 0 points: No reported internal testing, external evaluations, or external redteaming.
+   - Source: <https://www.aleph-alpha.com/luminous-performance-benchmarks>
+- Machine-generated content
+   - 2 points: In the context of the playground, it is clear that content is machine-generated. No further guidelines.
+   - Source: <https://app.aleph-alpha.com/jumpstart/model-qa>
+- Member states
+   - 2 points: No restrictions relevant to EU member states, though no discussion of how the models are deployed across different EU member states.
+   - Sources: <https://www.aleph-alpha.com/Aleph%20Alpha%20launches%20its%20LUMINOUS%20series%20for%20users> and <https://www.aleph-alpha.com/terms-conditions>.
+- Downstream documentation
+   - 0 points: No discussion of downstream obligations and no standardized public documentation. 
+   - Source: Aleph Alpha website.

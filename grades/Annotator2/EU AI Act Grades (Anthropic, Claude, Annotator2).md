@@ -1,0 +1,40 @@
+﻿**Anthropic (Claude) - total: 7/48**
+
+- Data sources
+   - 0 points: Was unable to find any description.
+   - Source: <https://www.anthropic.com/index/introducing-claude> 
+- Data governance
+   - 0 points: Was unable to find discussion of data governance re: dataset on which the model is trained; no discussion of mitigation of bias of data sources
+   - Sources: <https://www.anthropic.com/index/introducing-claude> 
+- Copyrighted data
+   - 0 points: Was unable to find any reference to copyright; none in the terms of service, privacy policy, or usage policy.
+   - Sources: <https://legal.anthropic.com/#terms> 
+- Compute
+   - 0 points: Was unable to find any description
+   - Sources: <https://www.anthropic.com/index/introducing-claude> ; <https://nvidianews.nvidia.com/news/aws-and-nvidia-collaborate-on-next-generation-infrastructure-for-training-large-machine-learning-models-and-building-generative-ai-applications> ; <https://www.anthropic.com/index/anthropic-partners-with-google-cloud>
+      - Note: could give 1 point for saying Google Cloud is its cloud provider, but Nvidia also claims to train systems for Anthropic and there are no details for Claude specifically
+- Energy (additive)
+   - 0 points: was unable to find any details on energy usage.
+   - Sources: <https://www.anthropic.com/index/introducing-claude>
+- Capabilities and limitations
+   - 1 point: Description of capabilities with several examples, no description of limitations.
+   - Sources: <https://www.anthropic.com/index/introducing-claude>
+- Risks and mitigations (additive)
+   - 1 point: extensive list of prohibited uses and restricted uses, which implicitly describes risks posed by the model.
+   - Sources: <https://legal.anthropic.com/#aup>
+      - Note: could have given 1.5 points for restricted and prohibited business use cases being mitigations, but they are not described as such.
+- Evaluations (additive)
+   - 0 points: was unable to find any evaluations.
+   - Sources: <https://www.anthropic.com/index/introducing-claude>
+- Testing (additive)
+   - 0 points: was unable to find any disclosure of results or process on internal or external testing. 
+   - Sources: <https://www.anthropic.com/index/introducing-claude> 
+- Machine-generated content
+   - 3 points: Acceptable use policy prohibits “Deceptive or misleading content. This includes using our products or services to: Impersonate a human by presenting results as human-generated, or using results in a manner intended to convince a natural person that they are communicating with a natural person” and Claude as integrated via Slack makes clear it is an AI system. But no watermarking.
+   - Sources: <https://legal.anthropic.com/#aup> 
+- Member states
+   - 2 points: Disclosure of explicitly permitted EU member states for API access. 
+   - Source: <https://console.anthropic.com/docs/api/supported-regions> 
+- Downstream documentation
+   - 0 points: Was unable to find any informational obligations or documentation.
+   - Source: Anthropic website.

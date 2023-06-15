@@ -1,0 +1,40 @@
+﻿**Aleph Alpha (Luminous)**
+
+- Data sources
+   - 0 points: Was unable to find any description of data sources.
+   - Source: Aleph Alpha website.
+- Data governance
+   - 0 points: Was unable to find any description of data governance for datasets used for training or other steps.
+   - Source: Aleph Alpha website
+- Copyrighted data
+   - 0 points: Was unable to find any description of copyrighted training data or otherwise.
+   - Sources: Aleph Alpha website ; <https://www.aleph-alpha.com/terms-conditions> 
+      - Note: Aleph Alpha’s terms and conditions prohibit customers from violating EU copyright law by uploading copyrighted materials
+- Compute
+   - 1 points: Model size is disclosed as - billion parameters. No other information on training time, number or type of hardware units, compute provider, or FLOPS. 
+   - Sources: Aleph Alpha website. <https://www.aleph-alpha.com/aleph-alpha-and-graphcore-demonstrate-80-sparsified-ai-model> ; luminous-supreme has 70B parameters <https://www.aleph-alpha.com/luminous-performance-benchmarks> 
+- Energy (additive)
+   - 0 points: Was unable to find any description of carbon emissions or energy usage.
+   - Sources: Aleph Alpha website.
+- Capabilities and limitations
+   - 1 point: Describes capabilities in broad terms and with some specific use cases. No details on limitations or grounding of capabilities’ discussion in evaluations.
+   - Sources: <https://docs.aleph-alpha.com/docs/introduction/luminous/> 
+- Risks and mitigations
+   - 0 points: No list of risks, mitigations, or non-mitigated risks. 
+   - Sources: Aleph Alpha website.
+      - Note: Aleph Alpha’s terms and conditions lay out some prohibited uses, but do not detail how the company will enforce such prohibitions <https://www.aleph-alpha.com/terms-conditions> . Aleph Alpha has done research on using AI feedback to potentially reduce bias in foundation models, but has not incorporated such work into its policies. <https://carper.ai/quality-diversity-through-ai-feedback/> 
+- Evaluations
+   - 1 point: Uses EleutherAI’s Evaluation Harness to assess accuracy of Luminous’ text-based completions on classification, question answering, commonsense reasoning, natural language inferencing, and reading comprehension. No assessment of robustness, unintentional harms, malicious use, or UX.
+   - Source: <https://www.aleph-alpha.com/luminous-performance-benchmarks> 
+- Testing (additive)
+   - 0 points: Was unable to find anything on internal or external testing or evaluation. 
+   - Sources: <https://www.aleph-alpha.com/luminous-performance-benchmarks> 
+- Machine-generated content
+   - 1 point: On playground, within the complete and explain functions one can figure out the content is AI generated. No policy about machine generated content outside of playground or otherwise, no watermarking, no disclosure without jargon on the page explaining that each output is AI-generated.
+   - Source: <https://app.aleph-alpha.com/playground/completion> ; <https://www.aleph-alpha.com/terms-conditions> 
+- Member states
+   - 1 points: No meaningful description of deployment practices in relation to the EU, though there are some details regarding how clients must comply with GDPR and other EU law. 
+   - Source: <https://www.aleph-alpha.com/terms-conditions> 
+- Downstream documentation
+   - 0 points: Was unable to find any description of downstream obligations or documentation.
+   - Sources: Aleph Alpha website. 

@@ -1,0 +1,46 @@
+﻿**HuggingFace/BigScience (BLOOM) - total:** 
+
+- Data sources
+   - 3 points: 498 datasets in ROOTS dataset are described in fine grained detail, 223 are openly accessible and the remainder are accessible to researchers after submitting a request form. Details on refinement to the xP3 dataset are provided in the Bloom technical paper.
+   - Source: <https://huggingface.co/bigscience-data>; <https://openreview.net/pdf?id=UoEw6KigkUn>; 
+      - Note: data cards link in Model Card is dead. Could have given 4 points for extensive detail in the papers, but I think 4 is likely reserved for completely open access to datasets; open to switching to 4.
+- Data governance
+   - 4 points: Detailed discussion of multiple data governance measures intended to mitigate bias in training data, including “human involvement, local expertise, and language expertise in our data curation and documentation process” 
+   - Source: <https://arxiv.org/pdf/2211.05100.pdf> section 3
+      - Note: could have given 3 points as there’s no explicit constraint on requiring governance measures to include data, but it does seem that BigScience claims that all 0 points: No discussion of data governance
+- Copyrighted data
+   - 3 points: Significant discussion of how to treat potentially copyrighted data, though no description of separation between copyrighted and non-copyrighted data. From the Bloom technical paper, “(i) We sought explicit permission to use the data from specific providers within the context of BigScience whenever possible (such as for the AI26-managed S2ORC corpus of Lo et al. (2020) or articles from the French newspaper Le Monde7); (ii) we kept individual sources separate until the final stages of preprocessing to maintain traceability and handle each according to the needs of its specific context; and (iii) we adopted a composite release approach for the various data sources that make up the overall corpus to foster reproducibility and follow-up research while respecting these source-dependent needs.”
+   - Source: <https://arxiv.org/pdf/2211.05100.pdf>  section 3 ; <https://huggingface.co/bigscience-data> ; <https://openreview.net/pdf?id=UoEw6KigkUn> ; <https://aclanthology.org/2021.emnlp-demo.21.pdf> ; 
+- Compute
+   - 4 points: model size (176 billion parameters), training time (- March 2022 to 5 July 2022), number of hardware units (384 A100 80GB GPUs with 48 nodes, Additional 32 A100 80GB GPUs with 4 nodes in reserve), FLOPs (about 150 TFLOP per GPU per second), and compute provider (Jean Zay supercomputer in Île-de-France, France) are disclosed.
+   - Source: <https://huggingface.co/bigscience/bloom> ; <https://arxiv.org/pdf/2211.05100.pdf> ; <https://huggingface.co/bigscience/bloom/tensorboard> 
+- Energy 
+   - 4 points: energy usage (433 MWh), emissions (25 tons CO2 eq.), measurement methodology (Life Cycle Assessment approach) and mitigation measures (nuclear energy, more efficient hardware) are all referenced. A separate paper on energy usage is also provided, which contains significant detail. 
+   - Source: <https://arxiv.org/pdf/2211.02001.pdf> ; <https://arxiv.org/pdf/2211.05100.pdf> 
+      - Note: The model card says estimates forthcoming. This goes beyond a 4 with the energy-specific paper. 
+- Capabilities and limitations
+   - 3 points: Capabilities are described (e.g., summarization, question answering, text generation, information extraction) with reference to evaluations (though few concrete examples) while many limitations are listed and several are evaluated (e.g., performance across languages, bias).
+   - Source: <https://arxiv.org/pdf/2211.05100.pdf> section 4; <https://huggingface.co/bigscience/bloom>
+      - Note: if there were concrete examples and more evaluations of limitations, this would be a 4.
+- Risks and mitigations
+   - 2 points: Risks and mitigations are listed, but the extent to which mitigations successfully reduce risk (compared to baseline) is not adequately described and there is little justification of non-mitigated risks. 
+   - Source: <https://arxiv.org/pdf/2211.05100.pdf> 
+      - Note: could definitely give 3 points here for all of the mitigations (RAIL license, data governance, etc.) but compared to other papers that measure the extent to which mitigations were effective, this doesn’t hold up. On bias, only potential comparison is to smaller Bloom models, but it’s not clear why those models don’t have mitigations but 176B does.
+- Evaluations (additive)
+   - 3 points: measurement of accuracy on multiple benchmarks as well as unintentional harms, robustness, and calibration. Was unable to find any measurement of intentional harms such as malicious use.
+   - Source: <https://arxiv.org/pdf/2211.02001.pdf> section 4
+- Testing (additive)
+   - 2 points: Significant disclosure of results via internal testing, but no external evaluations or red teaming.
+   - Source: <https://arxiv.org/pdf/2211.02001.pdf> section 4
+      - Note: could give 3 points for shouting out HELM, but it doesn’t seem it was done via external access. Unclear how much external evaluation concept applies in BigScience context.
+- Machine-generated content
+   - 4 points: Bloom RAIL license prohibits “To generate or disseminate information or content, in any context (e.g. posts, articles, tweets, chatbots or other kinds of automated bots) without expressly and intelligibly disclaiming that the text is machine generated”. 
+   - Source: <https://huggingface.co/spaces/bigscience/license>
+      - Note: Was unable to find any discussion of watermarking, but the RAIL license is a mechanism of ensuring content is identifiable as machine-generated. Could be 3 points.
+- Member states
+   - 0 points: No description of deployment practices in relation to the EU. 
+   - Source: <https://huggingface.co/bigscience/bloom> 
+      - I could just be missing something here, didn’t search for a full hour. This also might be a bit harsh given RAIL license
+- Downstream documentation
+   - 4 points: RAIL license, model card, and technical documentation accompanying open access to the model provide sufficient documentation for downstream providers to comply with AIA.
+   - Source: <https://huggingface.co/spaces/bigscience/license> ;  <https://huggingface.co/bigscience/bloom> ; <https://huggingface.co/bigscience/bloom/tree/main> 
