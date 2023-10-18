@@ -1,6 +1,6 @@
-# The Foundation Model Transparency Index
+# Do Foundation Model Providers Comply with the Draft EU AI Act
 
-We evaluate the practices of foundation model providers like OpenAI and Google. For our first release in June 2023, we score foundation model providers for their compliance with the EU Parliament's AI Act requirements.  
+We assess whether score foundation model providers are likely to compl with the EU Parliament's AI Act requirements in their draft from June 2023. We interpret the Act text (as described below) and use public information to make these assessments. None of this analysis is legally binding, and many aspects of this analysis are likely to diverge from the status in 2025-2026 when the Act is likely to go into effect (e.g. the EU AI Act's finalized requirements, the foundation model providers, the flagship foundation models of each provider, the appropriate interpretation and standards for a given requirement).   
 
 
 ## Methodology.
